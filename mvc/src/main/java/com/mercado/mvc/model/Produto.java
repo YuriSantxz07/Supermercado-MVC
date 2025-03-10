@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class Produto {
-    private Integer idProduto;
+    private Long idProduto;
     private String nome;
     private String categoria;
     private double preco;

@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class Fornecedor {
-    private Integer idFornecedor;
+    private Long idFornecedor;
     private String nome;
     private String cnpj;
 }

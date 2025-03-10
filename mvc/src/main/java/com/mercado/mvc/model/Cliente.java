@@ -10,7 +10,7 @@ import java.util.List;
 @Setter
 @Getter
 public class Cliente {
-    private Integer idCliente;
+    private Long idCliente;
     private String nome;
     private String cpf;
     private List<Date> dataCompraC;

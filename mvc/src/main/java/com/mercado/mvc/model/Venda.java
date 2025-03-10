@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -15,7 +16,7 @@ import java.util.List;
 public class Venda {
     private Long id;
     private String cliente;
-    private Date dataVenda;
+    private LocalDate dataVenda;
     private List<Produto> produtos;
     private double valorTotal;
 }

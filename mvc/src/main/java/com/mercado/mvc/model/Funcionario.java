@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class Funcionario {
-    private Integer idFuncionario;
+    private Long idFuncionario;
     private String nome;
     private String cpf;
     private double comissao;
